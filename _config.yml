@@ -1,0 +1,29 @@
+version: 1.0.0
+
+title: North Horizon
+name: North Horizon
+tagline:
+description:
+
+author:
+  name: Daniel Moore
+  url: https://github.com/danielmoore
+  email:
+
+url: http://northhorizon.net
+permalink: /:year/:title
+baseurl: ''
+paginate: 5
+
+kramdown:
+  input: GFM
+  hard_wrap: false
+gems:
+  - jekyll-paginate
+
+lsi: false
+safe: true
+incremental: false
+highlighter: rouge
+gist:
+  noscript: false 
